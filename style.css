@@ -1,8 +1,12 @@
 header {
     height: 15vh;
     opacity: 1;
-    position: sticky;
+    position:  sticky;
     top: 0;
+    background-color: rgb(0, 56, 102);
+}
+.header__div {
+    position: absolute;
 }
 .right__header__container {
     display: flex;
@@ -23,8 +27,9 @@ header {
 a {
     text-decoration: none;
     font-family: "Nunito", sans-serif;
-    color: rgb(179, 179, 179);
+    color: rgb(192, 192, 192);
     transition-duration: 0.2s;
+    font-size: 120%;
 }
 a:hover {
     color: white;
@@ -36,4 +41,39 @@ a:hover {
     display: inline-block;
     margin: 0 auto;
     width: 1280px;
+}
+.section__1__right__container {
+    display: flex;
+    float: right;
+    height: 100%;
+    width: 50%;
+}
+.section__1__left__container {
+    display: flex;
+    float: left;
+    height: 100%;
+    width: 49%;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 8vw;
+}
+.bgimg1 {
+    width: 690px;
+    height: 900px;
+}
+.section__1 {
+    background-color: black;
+    height: 100vh;
+}
+h1 {
+    font-family: "Roboto", sans-serif;
+    color: rgb(255, 197, 91);
+    font-size: 450%;
+    font-weight: 600;
+}
+h2 {
+    font-family: "Roboto", sans-serif;
+    color: rgb(151, 151, 151);
+    font-size: 100%;
+    font-weight: 400;
 }
