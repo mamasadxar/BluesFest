@@ -1,0 +1,39 @@
+header {
+    height: 15vh;
+    opacity: 1;
+    position: sticky;
+    top: 0;
+}
+.right__header__container {
+    display: flex;
+    float: right;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    width: 49%;
+    gap: 2vw;
+}
+.left__header__container {
+    display: flex;
+    float: left;
+    height: 100%;
+    width: 35%;
+    justify-content: center;
+}
+a {
+    text-decoration: none;
+    font-family: "Nunito", sans-serif;
+    color: rgb(179, 179, 179);
+    transition-duration: 0.2s;
+}
+a:hover {
+    color: white;
+}
+.logo {
+    scale: 0.9;
+}
+.container {
+    display: inline-block;
+    margin: 0 auto;
+    width: 1280px;
+}
