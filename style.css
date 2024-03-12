@@ -4,6 +4,7 @@ header {
     position:  sticky;
     top: 0;
     background-color: rgb(0, 56, 102);
+    z-index: 100;
 }
 .header__div {
     position: absolute;
@@ -70,6 +71,7 @@ h1 {
     color: rgb(255, 197, 91);
     font-size: 470%;
     font-weight: 600;
+    transition-duration: 0.3s;
 }
 h2 {
     font-family: "Roboto", sans-serif;
@@ -137,7 +139,7 @@ h5 {
 }
 .card__date {
     position: absolute;
-    z-index: 100;
+    z-index: 50;
     background-color: rgb(255, 197, 91);
     width: 50px;
     height: 50px;
@@ -154,3 +156,94 @@ h6 {
     font-weight: 200;
     margin: 0;
 }
+.section__3 {
+    height: 250vh;
+    background-color: black;
+}
+.sec3__first__container__flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50vh;
+    justify-content: center;
+}
+.sec3__h2 {
+    text-align: center;
+    color: rgb(230, 230, 230);
+}
+.section__3__line {
+    width: 80px;
+    border: 1px solid rgb(255, 197, 91);
+}
+.sec3__second__container__flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 60px;
+    padding-bottom: 20vh;
+}
+.singers {
+    max-width: 900px;
+    margin: 0 auto;
+}
+.singer__cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    row-gap: 50px;
+    column-gap: 50px;
+}
+.singer__card1 {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+}
+.singer1__img {
+    width: 400px;
+    height: 400px;
+    transition-duration: 0.3s;
+    position: absolute;
+}
+.singer__card1:hover .singer1__img {
+    scale: 1.1;
+    filter: grayscale(100%);
+}
+.singer__card__h1 {
+    position: absolute;
+    font-size: 200%;
+    font-weight: 300;
+    transform: translate(-50%, -50%);
+    top: 55%;
+    left: 50%;
+    color: rgb(255, 184, 53);
+    display: none;
+    transition-duration: 0.3s;
+}
+.singer__card__h1:hover {
+    display: block;
+    top: 30%;
+}
+.singer__card__h2 {
+    position: absolute;
+    font-size: 120%;
+    font-weight: 300;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 65%;
+    height: 40px;
+    color: rgb(255, 184, 53);
+    display: none;
+    transition-duration: 0.3s;
+}
+.singer__card1:hover .singer__card__h1 {
+    display: block;
+    top: 30%;
+}
+.singer__card1:hover .singer__card__h2 {
+    display: block;
+    top: 50%;
+}
+
