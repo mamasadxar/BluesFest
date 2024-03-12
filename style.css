@@ -68,7 +68,7 @@ a:hover {
 h1 {
     font-family: "Roboto", sans-serif;
     color: rgb(255, 197, 91);
-    font-size: 450%;
+    font-size: 470%;
     font-weight: 600;
 }
 h2 {
@@ -76,4 +76,8 @@ h2 {
     color: rgb(151, 151, 151);
     font-size: 100%;
     font-weight: 400;
+}
+.filler {
+    height: 40.5vh;
+    background-color: black;
 }
