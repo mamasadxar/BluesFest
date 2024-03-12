@@ -22,7 +22,7 @@ header {
     display: flex;
     float: left;
     height: 100%;
-    width: 35%;
+    width: 27%;
     justify-content: center;
 }
 a {
@@ -246,4 +246,23 @@ h6 {
     display: block;
     top: 50%;
 }
-
+.hidden {
+    opacity: 0;
+    transition: 1s;
+    filter: blur(5px);
+    transform: translateY(30%);
+}
+.show {
+    opacity: 1;
+    filter: blur(0px);
+    transform: translateY(0%);
+}
+.section2__second__card {
+    transition-delay: 0.2s;
+}
+.section2__third__card {
+    transition-delay: 0.4s;
+}
+.section2__fourth__card {
+    transition-delay: 0.6s;
+}
