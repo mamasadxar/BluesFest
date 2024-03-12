@@ -78,6 +78,51 @@ h2 {
     font-weight: 400;
 }
 .filler {
-    height: 40.5vh;
+    height: 43vh;
     background-color: black;
+}
+.section__2 {
+    background-color: black;
+    height: 100vh;
+}
+h3 {
+    font-size: 250%;
+    height: 400px;
+    color: white;
+    font-weight: 300;
+}
+.sec2__h3__line {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 10vh;
+}
+.section__2__line {
+    width: 7vw;
+    border: 1px solid rgb(255, 197, 91);
+}
+.section2__cards__container__flex {
+    display: flex;
+    justify-content: center;
+    padding-top: 3vh;
+}
+.card__top {
+    width: 350px;
+}
+.card__bottom {
+    width: 350px;
+    padding-top: 3vh;
+}
+.card1__img {
+    width: 350px;
+    height: 263px;
+}
+h4 {
+    color: white;
+    font-weight: 200;
+}
+h5 {
+    color: rgb(138, 138, 138);
+    font-weight: 200;
+    font-size: 100%;
 }
