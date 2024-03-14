@@ -7,9 +7,17 @@ const observer = new IntersectionObserver((entries) => {
     });
 });
 
-const hiddenElements = document.querySelectorAll('.hidden');
+const hiddenElements = document.querySelectorAll('.damaluli');
 hiddenElements.forEach((el) => observer.observe(el))
 
 Fancybox.bind("[data-fancybox]", {
 
+  });
+
+$(document).ready(function(){
+    $('.owl-carousel').owlCarousel({
+        loop:true,
+        margin:15,
+        center:true,
+    });
   });
