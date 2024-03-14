@@ -296,6 +296,8 @@ h6 {
     background-color: white;
     vertical-align: top;
     padding-left: 30px;
+    flex-direction: column;
+    row-gap: 50px;
 }
 .preview__image {
     scale: 1.1;
@@ -311,7 +313,7 @@ h6 {
 }
 .section4__left__side__container {
     overflow: hidden;
-    height: 700px;
+    height: 650px;
     position: relative;
     width: 500px;
 }
@@ -331,4 +333,10 @@ h6 {
     color: white;
     font-size: 135%;
     font-weight: 400;
+}
+.section4__right__side__container {
+    overflow: hidden;
+    height: 300px;
+    width: 500px;
+    position: relative;
 }
