@@ -157,7 +157,7 @@ h6 {
     margin: 0;
 }
 .section__3 {
-    height: 200vh;
+    height: 250vh;
     background-color: black;
 }
 .sec3__first__container__flex {
@@ -265,4 +265,31 @@ h6 {
 }
 .section2__fourth__card {
     transition-delay: 0.8s;
+}
+.section__4 {
+    height: 150vh;
+    background-color: black;
+}
+.section4__h3__line {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 70px;
+    margin-bottom: 15vh;
+}
+.section4__line {
+    width: 60px;
+    border: 1px solid rgb(255, 197, 91);
+}
+.section4__left__side {
+    width: 50%;
+    display: inline-flex;
+    background-color: gray;
+    height: 60vh;
+}
+.section4__right__side {
+    width: 50%;
+    display: inline-flex;
+    height: 60vh;
+    background-color: white;
 }
