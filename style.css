@@ -267,7 +267,7 @@ h6 {
     transition-delay: 0.8s;
 }
 .section__4 {
-    height: 150vh;
+    height: 100vh;
     background-color: black;
 }
 .section4__h3__line {
@@ -293,4 +293,39 @@ h6 {
 }
 .owl-theme .owl-dots .owl-dot.active span {
     background-color: rgb(255, 184, 53);
+}
+.section5__left__container {
+    display: inline-flex;
+    width: 50%;
+    height: 75vh;
+    background-color: rgb(0, 0, 0);
+    vertical-align: top;
+    justify-content: flex-end;
+}
+.section5__right__container {
+    display: inline-block;
+    width: 50%;
+    height: 75vh;
+    background-color: rgb(0, 0, 0);
+    vertical-align: top;
+    padding-left: 3vw;
+    padding-right: 5vw;
+}
+.section5__h2 {
+    color: white;
+    font-size: 250%;
+    font-weight: 300;
+}
+.section5__h3 {
+    color: gray;
+    font-weight: 400;
+    font-size: 120%;
+    height: 150px;
+}
+.section__5 {
+    background-color: black;
+}
+footer {
+    height: 60vh;
+    background-color: rgb(44, 44, 44);
 }
