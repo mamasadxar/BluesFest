@@ -377,3 +377,48 @@ footer {
     background-color: rgb(34, 34, 34);
     height: 15vh;
 }
+/* form styling */
+.formbg {
+    background-color: rgb(31, 31, 31);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 97vh;
+}
+form {
+    background-color: rgb(172, 172, 172);
+    height: 60vh;
+    width: 25vw;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    border-radius: 10px;
+}
+.form__login__h1 {
+    color: white;
+    font-size: 250%;
+    text-align: center;
+    margin-bottom: 5vh;
+}
+.form__name__text {
+    font-family: "Roboto", sans-serif;
+    font-size: 150%;
+}
+.form__input__name {
+    height: 30px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 3vh;
+    width: 96%;
+    outline: none;
+    padding-left: 0.5vw;
+}
+.loginbutton {
+    height: 30px;
+    width: 99%;
+    outline: none;
+    font-size: 20px;
+    background-color: rgb(48, 202, 48);
+    border: none;
+    margin-top: 5vh;
+}
